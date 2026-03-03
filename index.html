@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>RGH Arquitectos - Inicio</title>
+<meta name="description" content="RGH Arquitectos - Creamos espacios que inspiran y perduran. Arquitectura que trasciende el tiempo." />
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          primary: "#0f2342",
+          secondary: "#4b5f76",
+          tertiary: "#8895a3",
+          "background-light": "#f8f9fa",
+          "background-dark": "#121212",
+          "card-light": "#ffffff",
+          "card-dark": "#1e1e1e",
+        },
+        fontFamily: {
+          sans: ["Montserrat", "sans-serif"],
+          serif: ["Playfair Display", "serif"],
+        },
+        borderRadius: {
+          DEFAULT: "0px",
+        },
+      },
+    },
+  };
+</script>
+<style>html { scroll-behavior: smooth; }</style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-primary dark:text-gray-200 font-sans transition-colors duration-300">
+
+<nav class="fixed w-full z-50 bg-white/90 dark:bg-black/90 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800 transition-colors duration-300">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-20">
+      <div class="flex items-center space-x-4">
+        <div class="flex flex-col">
+          <span class="text-3xl font-bold tracking-tight text-primary dark:text-white leading-none">RGH</span>
+          <span class="text-[0.6rem] tracking-[0.3em] uppercase text-secondary dark:text-gray-400 mt-1">Arquitectos</span>
+        </div>
+        <div class="flex h-10 space-x-1">
+          <div class="w-2.5 h-full bg-primary dark:bg-blue-900"></div>
+          <div class="w-2.5 h-full bg-secondary dark:bg-blue-700"></div>
+          <div class="w-2.5 h-full bg-tertiary dark:bg-blue-500"></div>
+        </div>
+      </div>
+      <div class="hidden md:flex space-x-8 items-center">
+        <a class="text-sm uppercase tracking-widest hover:text-secondary dark:hover:text-blue-400 transition-colors" href="estudio.html">Estudio</a>
+        <a class="text-sm uppercase tracking-widest hover:text-secondary dark:hover:text-blue-400 transition-colors" href="portafolio.html">Portafolio</a>
+        <a class="text-sm uppercase tracking-widest hover:text-secondary dark:hover:text-blue-400 transition-colors" href="servicios.html">Servicios</a>
+        <a class="text-sm uppercase tracking-widest hover:text-secondary dark:hover:text-blue-400 transition-colors" href="contacto.html">Contacto</a>
+        <button class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400" id="theme-toggle">
+          <span class="material-symbols-outlined dark:hidden">dark_mode</span>
+          <span class="material-symbols-outlined hidden dark:block">light_mode</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="relative w-full h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+  <div class="absolute inset-0 z-0">
+    <img alt="Arquitectura moderna fondo" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6m9QcYScUjQyMJ3IoZKp2hmXQfYTgTL4XF2FfC9qIP-_01RVWchbT7b_ULY66M4ZbS-S_44_-yG08N3bPrEEYqdmjxo-x7xjEX_noZ4jVKxUBaScGRRKjPkUvMRjeiwYX2R9kK5y3yweVEuPdo9zInhYirk0OI-OncgcSp4ZFOEJaiyA2t2IflYsYEN_T7A94rIucZRBNC9a6R9hyZdV-GG3RYl3G9StCnM35SQ-G3MOrR55xyfwajpxf4NUB0J5q0v1gKglG4G6-"/>
+    <div class="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/40 dark:from-black/80 dark:to-primary/60 mix-blend-multiply"></div>
+    <div class="absolute inset-0 bg-primary/20"></div>
+  </div>
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center md:text-left">
+    <div class="max-w-4xl">
+      <h2 class="text-sm md:text-base font-bold uppercase tracking-[0.3em] text-tertiary mb-6">
+        Diseño • Innovación • Sostenibilidad
+      </h2>
+      <h1 class="text-5xl md:text-7xl lg:text-8xl font-serif text-white mb-8 leading-tight tracking-tight">
+        Arquitectura que <br/>
+        <span class="italic font-light text-gray-200">trasciende el tiempo</span>
+      </h1>
+      <p class="text-lg text-gray-300 max-w-xl mb-10 font-light leading-relaxed hidden md:block">
+        Creamos espacios que inspiran y perduran. En RGH Arquitectos fusionamos estética y funcionalidad para dar vida a proyectos únicos.
+      </p>
+      <div class="flex flex-col md:flex-row gap-6 items-center md:items-start">
+        <a class="group inline-flex items-center px-10 py-4 border border-white text-sm font-bold uppercase tracking-widest text-white hover:bg-white hover:text-primary transition-all duration-300" href="portafolio.html">
+          Explorar Proyectos
+          <span class="material-symbols-outlined ml-2 text-base group-hover:translate-x-1 transition-transform">arrow_forward</span>
+        </a>
+        <a class="group inline-flex items-center px-6 py-4 text-sm font-bold uppercase tracking-widest text-gray-300 hover:text-white transition-colors duration-300" href="contacto.html">
+          <span class="w-10 h-[1px] bg-gray-300 group-hover:bg-white mr-4 transition-colors"></span>
+          Contactar Estudio
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 md:left-auto md:right-12 md:translate-x-0 z-10 flex flex-col items-center space-y-4">
+    <span class="text-[0.6rem] uppercase tracking-[0.2em] text-gray-400 rotate-0 md:rotate-90 origin-center whitespace-nowrap">Deslizar</span>
+    <div class="w-[1px] h-16 bg-gray-400/50 overflow-hidden relative">
+      <div class="absolute w-full h-1/2 bg-white top-0 animate-bounce"></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="py-24 bg-background-light dark:bg-background-dark">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+        <div>
+          <div class="w-16 h-1 bg-secondary mb-8"></div>
+          <h2 class="text-3xl md:text-4xl font-serif text-primary dark:text-white mb-6">
+            Filosofía Minimalista,<br/>
+            <span class="italic text-secondary">Impacto Máximo.</span>
+          </h2>
+          <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 font-light">
+            En RGH Arquitectos, creemos que la verdadera elegancia reside en la simplicidad. Cada línea, cada material y cada espacio se selecciona con un propósito deliberado, eliminando lo superfluo para revelar la esencia pura de la arquitectura.
+          </p>
+          <a class="text-sm font-bold uppercase tracking-widest text-primary dark:text-blue-400 border-b border-primary dark:border-blue-400 pb-1 hover:text-secondary transition-colors" href="estudio.html">Conoce Nuestro Estudio</a>
+        </div>
+        <div class="relative h-96 bg-gray-200 dark:bg-gray-800">
+          <img alt="Detalle arquitectónico" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWhxXpk-BdBdPR5yXCa0C7ugxc7tT_zCeSMSftAeAB51roz-UOCyvRbCjjyd1MxWSgg4BLiwSEftiavqdiABCeyMwdd0VgVntNx2FpNcB2annFgAYHVDl3qZw6QmfuZQjhL3wxEWVaTDXp1jni1yJC8ClkbZRHiUhNP6ZfyOobMC1tSTj_ciqrAveSXwQGNlilZfxSNEYtqMocIHY5PepuoQBX_fmCGVAf3_bYdcNCdYyGO2IRX48ublZIJiRSYOKGZVVHaQ0STtkU"/>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="bg-primary text-white py-16 px-4 border-t border-gray-800">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+    <div class="col-span-1 md:col-span-2">
+      <div class="flex items-center space-x-3 mb-6">
+        <h2 class="text-4xl font-bold tracking-tight">RGH</h2>
+        <div class="flex h-8 space-x-1">
+          <div class="w-2 h-full bg-white opacity-30"></div>
+          <div class="w-2 h-full bg-white opacity-60"></div>
+          <div class="w-2 h-full bg-white"></div>
+        </div>
+      </div>
+      <p class="text-gray-400 max-w-sm mb-6 font-light">Creando una arquitectura atemporal que une las necesidades humanas con la conciencia ambiental.</p>
+      <div class="flex space-x-4">
+        <a class="text-gray-400 hover:text-white transition-colors" href="#">IG</a>
+        <a class="text-gray-400 hover:text-white transition-colors" href="#">LI</a>
+        <a class="text-gray-400 hover:text-white transition-colors" href="#">TW</a>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-sm font-bold uppercase tracking-widest text-secondary mb-4">Contacto</h3>
+      <p class="text-gray-300 font-light mb-2">info@rgh-arquitectos.com</p>
+      <p class="text-gray-300 font-light">+34 912 345 678</p>
+      <p class="text-gray-300 font-light mt-4">Calle de Velázquez, 45<br/>28001 Madrid, España</p>
+    </div>
+    <div>
+      <h3 class="text-sm font-bold uppercase tracking-widest text-secondary mb-4">Menú</h3>
+      <ul class="space-y-2 font-light text-gray-300">
+        <li><a class="hover:text-white hover:underline transition-colors" href="portafolio.html">Proyectos</a></li>
+        <li><a class="hover:text-white hover:underline transition-colors" href="estudio.html">Estudio</a></li>
+        <li><a class="hover:text-white hover:underline transition-colors" href="servicios.html">Servicios</a></li>
+        <li><a class="hover:text-white hover:underline transition-colors" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between text-xs text-gray-500">
+    <p>© 2026 RGH Arquitectos. Todos los derechos reservados.</p>
+    <div class="mt-4 md:mt-0 space-x-4">
+      <a class="hover:text-white" href="#">Política de Privacidad</a>
+      <a class="hover:text-white" href="#">Términos de Uso</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const themeToggleBtn = document.getElementById('theme-toggle');
+  if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+  }
+  themeToggleBtn.addEventListener('click', () => {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark');
+      localStorage.theme = 'light';
+    } else {
+      document.documentElement.classList.add('dark');
+      localStorage.theme = 'dark';
+    }
+  });
+</script>
+</body>
+</html>
